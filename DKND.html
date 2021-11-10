@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K194111624_LuongTruongPhuoc</title>
+</head>
+
+<body> 
+  <div style="position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); border-style: solid; padding: 10px;">
+    <div style="color: white;background-color:mediumblue; justify-content: center;">
+    <h2 style="text-align:center;">ĐĂNG KÝ NGƯỜI DÙNG</h2>
+  </div>
+    <form action="form_action.asp" method="get">
+        <div style="display: flex;"><b>Tên đăng nhập:</b> <input type="text" name="fname" /> <div style="color: red;margin-left: 4px;">*</div></div>
+        <br>
+       <div style="display: flex"> <b>&emsp;&emsp;Mật khẩu:</b> <input type="password" name="password" />
+        <br> <div style="color: red;margin-left: 4px;">*</div></div>
+        (Tối thiểu 5 ký tự) <br />
+        <div style="display: flex"> <b>Xác nhận mật khẩu:</b> <input type="password" name="retypepass" />
+          <br> <div style="color: red;margin-left: 4px;">*</div></div>
+
+    </form>
+    <hr>
+    <ul>
+        <li><i><b>Nhập thông tin để lấy lại mật khẩu khi quên</b></i></li>
+    </ul>
+    <form>
+        <div style="display: flex"> <b style="width:150px">Chọn câu hỏi</b>
+            <select name="cauhoibimat">
+                <option value="Default">[Chọn câu hỏi]</option>
+                <option value="Cauhoi1">Câu hỏi 1</option>
+                <option value="Cauhoi2">Câu hỏi 2</option>
+                <option value="Cauhoi3">Câu hỏi 3</option>
+                
+            </select>
+            <div style="color: red;margin-left: 4px;">*</div></div>
+
+     
+      <br>
+        <div style="display: flex"> <b>Trả lời:</b> <input type="text" name="traloi"/>
+          <br>
+           <div style="color: red;margin-left: 4px;">*</div>
+          </div>
+    </form>
+    <hr>
+    <form>
+        <ul>
+            <li><i><b>Thông tin cá nhân</b></i></li>
+            <div style="display: flex;margin-top: 8px;"> <b>Họ và tên chữ lót:</b> <input type="text" name="lastname" />
+              <br> <div style="color: red;margin-left: 4px;">*</div>
+            </div>
+            <div style="display: flex;margin-top: 8px;"> <b>Tên:</b> <input type="text" name="firstname" />
+              <br>
+              <div style="color: red;margin-left: 4px;">*</div>
+            </div>
+        </ul>
+        <b>Ngày sinh:</b>
+        <select>
+            <option></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <input type="text" name="ngay" />
+        <input type="text" name="nam" /> Month, DD, YYYY <br>
+        <form>
+           <div style="display: flex"> <b>Giới tính:</b>
+            <input type="radio" name="sex" value="Nam" checked=“checked” /> Nam
+            <input type="radio" name="sex" value="Nữ" check=“checked” /> Nữ <br></div>
+        </form>
+       <div style="display: flex">
+        <b>Nghề nghiệp liên quan:</b>
+        <select name="nganhnghe">
+            <option value="Default">[Chọn ngành nghề]</option>
+            <option value="Ketoan">Kế toán</option>
+            <option value="Sinhvien">Sinh viên</option>
+            <option value="Bacsi">Bác sĩ</option>
+        </select>
+       </div>
+        <hr />
+        <ul>
+            <li><i><b>Sở thích (tùy chọn)</b></i></li>
+        </ul>
+        <form style="text-align: center;">
+           <div>
+            <input type="checkbox" name="vehicle1" value="Music" />
+            Âm nhạc
+            <input type="checkbox" name="vehicle2" value="Travel" />
+            Du lịch
+            <br>
+            <input type="checkbox" name="vehicle2" value=" Research" />
+            Nghiên cứu
+            <input type="checkbox" name="vehicle2" value=" Business" />
+            Kinh doanh
+          </div>
+        </form>
+        <br>
+        <form style="display: flex; justify-content: center;" action="form_action.asp" method="get">
+            <input type="submit" value="Đăng ký" />
+            <input type="submit" value="Xóa" style="margin-left: 8px";/>
+        </form>
+    </form>
+  </div>
+</body>
+</html>
