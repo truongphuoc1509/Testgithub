@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khoa HTTT - UEL</title>
+    <style>
+    .divcontent
+    {
+        
+        border: 3px solid whitesmoke; 
+        text-align: justify;
+        color: blue;
+        width: 800px;
+        height: 200px;
+    }
+    .alert
+    {
+        background-color: gray;
+        color: white;
+        font-size: 20px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    .btnClose
+    {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="divcontent">
+        <div class="alert">
+            <span class="btnClose" onclick="this.parentElement.style.display= 'none'">
+                <img src="Close_Button_red.png" width="24px" height="24px" >
+            </span>
+            KHOA HỆ THỐNG THÔNG TIN
+        </div>
+        <div style="padding: 10px">
+        KHOA HỆ THỐNG THÔNG TIN THUỘC TRƯỜNG TRƯỜNG ĐẠI HỌC KINH TẾ-LUẬT ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH LÀ CƠ SỞ ĐÀO TẠO
+        ĐẠI HỌC, SAU ĐẠI HỌC, NGHIÊN CỨU KHOA HỌC VÀ CÔNG NGHỆ TRONG LĨNH VỰC TIN HỌC - KINH TẾ, HỆ THỐNG THÔNG TIN QUẢN LÝ, THƯƠNG
+        MẠI ĐIỆN TỬ THEO TIÊU CHÍ CHẤT LƯỢNG CAO, ĐẠT TRÌNH ĐỘ TIÊN TIẾN,ĐÁP ỨNG NHU CẦU PHÁT TRIỂN KINH TẾ XÃ HỘI TRONG TIẾN TRÌNH 
+        CNH, HDH ĐẤT NƯỚC VÀ HỘI NHẬP QUỐC TẾ
+    </div>
+    
+</body>
+</html>
