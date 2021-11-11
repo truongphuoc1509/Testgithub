@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    ul
+    {
+    border: 3px solid black;   
+    list-style-type: none;
+    padding:10px;
+    overflow: hidden;
+    background-color: white;
+    margin: 20px ;
+    height: 200px;
+     
+    }
+ .container {
+    display: flex;
+  justify-content: center;
+}
+    
+li {float: left;  
+  background-color: purple}
+li a{
+  
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+li a:hover{
+  background-color: #FF3300;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" >
+    <ul>
+        <li ><a href="#Link one">Link one</a></li>
+        <li ><a href="#Link Two">Link two</a></li>
+        <li ><a href="#Link three">Link three</a></li>
+        <li ><a href="#Link four">Link four</a></li>
+        <div class="clearfix"></div>
+        Nội dung trang chủ được hiện thị <br>
+        ở đây 
+     </ul>
+        </div>
+</body>
+</html>
